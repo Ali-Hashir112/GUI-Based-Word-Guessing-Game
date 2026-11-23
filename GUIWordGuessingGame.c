@@ -4,8 +4,6 @@
 #include <time.h>
 #include "raylib.h"
 
-// compile command : gcc wordle.c -o wordle.exe -lraylib -lopengl32 -lgdi32 -lwinmm
-
 // Some constant values to be used
 #define MAX 20000
 #define spacing 10
@@ -586,5 +584,6 @@ int main()
     CloseWindow();
 
     return 0;
+
 
 }
